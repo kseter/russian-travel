@@ -1,0 +1,14 @@
+.place__website {
+	max-width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: end;
+	padding-bottom: 22px;
+	gap: 12px;
+}
+
+@media (max-width: 320px) {
+	.place__website {
+		padding: 0 16px 22px;
+	}
+}

@@ -1,0 +1,67 @@
+@import url(../vendor/normalize.css);
+@import url(../fonts/fonts.css);
+@import url(../blogs/header/header.css);
+@import url(../blogs/header/__logo/header__logo.css);
+@import url(../blogs/header/__lang-links/header__lang-links.css);
+@import url(../blogs/header/__lang-link/header__lang-link.css);
+@import url(../blogs/header/__lang-link/_active/header__lang-link_active.css);
+@import url(../blogs/lead/lead.css);
+@import url(../blogs/lead/__title/lead__title.css);
+@import url(../blogs/lead/__subtitle/lead__subtitle.css);
+@import url(../blogs/lead/__image/lead__image.css);
+@import url(../blogs/lead/__caption/lead__caption.css);
+@import url(../blogs/intro/intro.css);
+@import url(../blogs/intro/__title/intro__title.css);
+@import url(../blogs/intro/__text/intro__text.css);
+@import url(../blogs/intro/__list/intro__list.css);
+@import url(../blogs/intro/__list/_bold/intro__list_bold.css);
+@import url(../blogs/photo-grid/photo-grid.css);
+@import url(../blogs/photo-grid/__item/photo-grid__item.css);
+@import url(../blogs/places/places.css);
+@import url(../blogs/place/__image/place__image.css);
+@import url(../blogs/place/place.css);
+@import url(../blogs/place/__title/place__title.css);
+@import url(../blogs/place/__website/place__website.css);
+@import url(../blogs/place/__link/place__link.css);
+@import url(../blogs/place/__url-heading/place__url-heading.css);
+@import url(../blogs/place/__paragraph/place__paragraph.css);
+@import url(../blogs/cover/__background/cover__background.css);
+@import url(../blogs/cover/cover.css);
+@import url(../blogs/cover/__link/cover__link.css);
+@import url(../blogs/cover/__subtitle/cover__subtitle.css);
+@import url(../blogs/cover/__title/cover__title.css);
+@import url(../blogs/cover/__overlay/cover__overlay.css);
+@import url(../blogs/footer/footer.css);
+@import url(../blogs/footer/__links/footer__links.css);
+@import url(../blogs/footer/__copyright/footer__copyright.css);
+@import url(../blogs/footer/__link/footer__link.css);
+
+.page {
+	background-color: #2A2C2F;
+}
+
+.page_wrapper {
+	width: 1280px;
+	margin: auto;
+}
+
+@media (max-width: 1024px) {
+	.page_wrapper {
+		width: 1024px;
+		margin: auto;
+	}
+}
+
+@media (max-width: 768px) {
+	.page_wrapper {
+		width: 768px;
+		margin: auto;
+	}
+}
+
+@media (max-width: 320px) {
+	.page_wrapper {
+		width: 320px;
+		margin: auto;
+	}
+}
