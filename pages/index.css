@@ -14,7 +14,8 @@
 @import url(../blogs/intro/__title/intro__title.css);
 @import url(../blogs/intro/__text/intro__text.css);
 @import url(../blogs/intro/__list/intro__list.css);
-@import url(../blogs/intro/__list/_bold/intro__list_bold.css);
+@import url(../blogs/intro/__list-item/intro__list-item.css);
+@import url(../blogs/intro/__list-item/_bold/intro__list-item_bold.css);
 @import url(../blogs/photo-grid/photo-grid.css);
 @import url(../blogs/photo-grid/__item/photo-grid__item.css);
 @import url(../blogs/places/places.css);
@@ -38,30 +39,27 @@
 
 .page {
 	background-color: #2A2C2F;
-}
-
-.page_wrapper {
-	width: 1280px;
+	max-width: 1184px;
 	margin: auto;
 }
 
 @media (max-width: 1024px) {
 	.page_wrapper {
-		width: 1024px;
+		max-width: 1024px;
 		margin: auto;
 	}
 }
 
 @media (max-width: 768px) {
 	.page_wrapper {
-		width: 768px;
+		max-width: 768px;
 		margin: auto;
 	}
 }
 
 @media (max-width: 320px) {
 	.page_wrapper {
-		width: 320px;
+		max-width: 320px;
 		margin: auto;
 	}
 }

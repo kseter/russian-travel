@@ -9,6 +9,12 @@
 	text-align: right;
 }
 
+@media (max-width: 675px) {
+	.footer__copyright {
+		text-align: left;
+	}
+}
+
 @media (max-width: 320px) {
 	.footer__copyright {
 		text-align: left;

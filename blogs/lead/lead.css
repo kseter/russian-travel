@@ -2,26 +2,26 @@
 	display: flex;
 	align-items: center;
 	flex-direction: column;
-	padding: 56px 148px 0;
+	padding: 56px 0 0;
 	margin: 0 auto;
-	max-width: 100%;
+	max-width: 984px;
 	box-sizing: border-box;
 }
 
 @media (max-width: 1024px) {
 	.lead {
-		padding: 48px 48px 0;
+		max-width: 928px;
 	}
 }
 
 @media (max-width: 768px) {
 	.lead {
-		padding: 48px 0 0;
+		max-width: 100%;
 	}
 }
 
 @media (max-width: 320px) {
 	.lead {
-		padding: 40px 0 0;
+		max-width: 100%;
 	}
 }

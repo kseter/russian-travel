@@ -8,6 +8,7 @@
 	text-decoration: none;
 	padding: 245px 312px;
 	box-sizing: border-box;
+	max-width: 100%;
 }
 
 @media (min-width: 1280px) {
@@ -27,6 +28,13 @@
 		padding: 104px 115px;
 	}
 }
+
+@media (max-width: 469px) {
+	.cover__link {
+		padding: 104px 115px;
+	}
+}
+
 
 @media (max-width: 320px) {
 	.cover__link {

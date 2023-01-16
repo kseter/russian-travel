@@ -20,6 +20,12 @@
 	}
 }
 
+@media (max-width: 470px) {
+	.cover {
+		max-width: 470px;
+	}
+}
+
 @media (max-width: 320px) {
 	.cover {
 		max-width: 320px;
