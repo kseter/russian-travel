@@ -1,0 +1,15 @@
+.place__link {
+	color: white;
+	font-family: 'Inter', 'Arial', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 22px;
+	text-decoration-line: underline;
+	max-width: 100%;
+	cursor: default;
+}
+
+.place__link:hover {
+	cursor: url("../../../images/cursos-hover.png"), pointer;
+}
