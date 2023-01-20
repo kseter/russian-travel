@@ -1,4 +1,5 @@
 .footer__link {
+	display: block;
 	color: white;
 	font-family: 'Inter', 'Arial', sans-serif;
 	font-style: normal;
@@ -13,6 +14,6 @@
 	.footer__link {
 		font-size: 24px;
 		line-height: 24px;
-		padding-bottom: 32px;
+		min-height: 24px;
 	}
 }

@@ -15,11 +15,30 @@
 	}
 }
 
+@media screen and (max-width: 1023px) {
+	.intro__title {
+		max-width: 97%;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.intro__title {
+		max-width: 100%;
+	}
+}
+
+@media screen and (max-width: 740px) {
+	.intro__title {
+		max-width: 97%;
+		font-size: 32px;
+		line-height: 35px;
+	}
+
+}
 
 @media screen and (max-width: 320px) {
 	.intro__title {
-		font-size: 32px;
-		line-height: 35px;
+		max-width: 100%
 	}
 
 }

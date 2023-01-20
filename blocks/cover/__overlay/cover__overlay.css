@@ -1,8 +1,8 @@
 .cover__overlay {
-	background-color: rgba(1, 1, 1, 0.3);
+	background-color: rgba(42, 44, 47, 0.3);
 	max-width: 100%;
 }
 
 .cover__overlay:hover {
-	background-color: rgba(1, 1, 1, 0.8);
+	background-color: rgba(42, 44, 47, 0.8);
 }

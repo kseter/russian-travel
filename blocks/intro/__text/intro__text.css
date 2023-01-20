@@ -14,3 +14,15 @@
 		max-width: 690px;
 	}
 }
+
+@media screen and (max-width: 767px) {
+	.intro__text {
+		max-width: 97%;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.intro__text {
+		max-width: 100%;
+	}
+}

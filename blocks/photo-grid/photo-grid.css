@@ -8,6 +8,12 @@
 	margin: 0 auto;
 }
 
+@media screen and (max-width: 1279px) {
+	.photo-grid {
+		max-width: 97%;
+	}
+}
+
 @media screen and (max-width: 1024px) {
 	.photo-grid {
 		max-width: 928px;
@@ -27,6 +33,7 @@
 
 @media screen and (max-width: 768px) {
 	.photo-grid {
+		margin: 0 auto;
 		max-width: 720px;
 		grid-template-columns: repeat(2, 1fr);
 		grid-template-rows: repeat(6, 1fr);
@@ -44,6 +51,7 @@
 
 @media screen and (max-width: 320px) {
 	.photo-grid {
+		margin: 0 auto;
 		max-width: 288px;
 		grid-template-columns: repeat(1, 1fr);
 		grid-template-rows: repeat(12, 1fr);
